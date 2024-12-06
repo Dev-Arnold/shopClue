@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Header3() {
   return (
-    <div className=' h-[40px] mt-[100px] bg-white flex items-center justify-center gap-11 '>
+    <div className=' h-[40px] hidden md:flex mt-[100px] bg-white  items-center justify-center gap-11 '>
         <nav className=' '>
             <ul className=' flex text-[0.8rem] gap-8'>
                 <li><Link>Jaw Dropping Deals</Link></li>

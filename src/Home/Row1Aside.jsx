@@ -5,7 +5,7 @@ import cloths from '../Images/cloths.jpg'
 
 function Row1Aside() {
   return (
-    <aside className=' w-[20%] bg-emerald-600 rounded-md shadow-md'>
+    <aside className=' hidden md:block w-[20%] bg-emerald-600 rounded-md shadow-md'>
         <div className=' border-b-[1px] border-solid border-gray-200'>
             <img src={refurb} />
         </div>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Header2() {
   return (
-    <div className=' h-[40px] flex items-center justify-center bg-iconColor '>
+    <div className=' h-[40px] hidden md:flex items-center justify-center bg-iconColor '>
         <nav className=' '>
             <ul className=' flex text-white text-[0.9rem] gap-8'>
                 <li><Link>Mobiles & More</Link></li>

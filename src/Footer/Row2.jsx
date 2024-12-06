@@ -5,7 +5,7 @@ import { FaInstagram, FaXTwitter, FaYoutube } from "react-icons/fa6";
 
 function Row2() {
   return (
-    <div className=' h-[80%] px-7 mt-3 grid grid-cols-4'>
+    <div className=' min-h-[80%] px-7 mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4'>
         <div>
             <h1 className=' font-semibold'>ABOUT SHOPCLUE</h1>
             <ol>

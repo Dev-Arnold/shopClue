@@ -5,7 +5,7 @@ import { MdEmail } from 'react-icons/md'
 
 function Row1() {
   return (
-    <div className=' grid grid-cols-5 h-[20%] bg-[#c7d7dc] rounded-tl-[30px] px-7 rounded-tr-[30px]'>
+    <div className=' grid sm:grid-cols-3 lg:grid-cols-5 gap-[10px] py-2 min-h-[20%] bg-[#c7d7dc] rounded-tl-[30px] px-7 rounded-tr-[30px]'>
         <div className=' flex items-center gap-2'>
            <MdEmail className=' p-1 rounded-full bg-white text-black text-2xl'/>
            <section className=' text-[0.8rem]'>
