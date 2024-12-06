@@ -1,0 +1,74 @@
+[
+    {
+        "id":0,
+        "prodImage":"../src/Images/menBlue.jpg",
+        "prodTitle":"leotude men blue printed cotton blend t-shirt",
+        "prodPrice":3000,
+        "oldPrice":5799,
+        "discount":83
+    },
+    {
+        "id":1,
+        "prodImage":"../src/Images/menBlack.jpg",
+        "prodTitle":"lavenour coffee scrub for unclog pores lightens dark spots and repairs uv damage scrub",
+        "prodPrice":8000,
+        "oldPrice":9799,
+        "discount":83
+    },
+    {
+        "id":2,
+        "prodImage":"../src/Images/menPlain.jpg",
+        "prodTitle":"macgrow men self design formal white maroon shirt pack of 2",
+        "prodPrice":400,
+        "oldPrice":2799,
+        "discount":83
+    },
+    {
+        "id":3,
+        "prodImage":"../src/Images/menBlue.jpg",
+        "prodTitle":"leotude men blue printed cotton blend t-shirt",
+        "prodPrice":3000,
+        "oldPrice":5799,
+        "discount":83
+    },
+    {
+        "id":4,
+        "prodImage":"../src/Images/menBlack.jpg",
+        "prodTitle":"lavenour coffee scrub for unclog pores lightens dark spots and repairs uv damage scrub",
+        "prodPrice":8000,
+        "oldPrice":9799,
+        "discount":83
+    },
+    {
+        "id":5,
+        "prodImage":"../src/Images/menPlain.jpg",
+        "prodTitle":"macgrow men self design formal white maroon shirt pack of 2",
+        "prodPrice":400,
+        "oldPrice":2799,
+        "discount":83
+    },
+    {
+        "id":6,
+        "prodImage":"../src/Images/menBlue.jpg",
+        "prodTitle":"leotude men blue printed cotton blend t-shirt",
+        "prodPrice":3000,
+        "oldPrice":5799,
+        "discount":83
+    },
+    {
+        "id":7,
+        "prodImage":"../src/Images/menBlack.jpg",
+        "prodTitle":"lavenour coffee scrub for unclog pores lightens dark spots and repairs uv damage scrub",
+        "prodPrice":8000,
+        "oldPrice":9799,
+        "discount":83
+    },
+    {
+        "id":8,
+        "prodImage":"../src/Images/menPlain.jpg",
+        "prodTitle":"macgrow men self design formal white maroon shirt pack of 2",
+        "prodPrice":400,
+        "oldPrice":2799,
+        "discount":83
+    }
+]

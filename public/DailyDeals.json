@@ -1,0 +1,75 @@
+[
+    {
+        "id":0,
+        "prodImage":"../src/Images/coffee.jpg",
+        "prodTitle":"lavenour coffee scrub for unclog pores lightens dark spots and repairs uv damage scrub",
+        "prodPrice":8000,
+        "oldPrice":9799,
+        "discount":83
+    },
+    {
+        "id":1,
+        "prodImage":"../src/Images/mat.jpg",
+        "prodTitle":"revexo table mat set of 06 pcs",
+        "prodPrice":99,
+        "oldPrice":699,
+        "discount":86
+    },
+    {
+        "id":2,
+        "prodImage":"../src/Images/goodgirl.jpg",
+        "prodTitle":"good girls guide to murder by holly jackson english paperback",
+        "prodPrice":129,
+        "oldPrice":300,
+        "discount":57
+    },
+    {
+        "id":3,
+        "prodImage":"../src/Images/coffee.jpg",
+        "prodTitle":"lavenour coffee scrub for unclog pores lightens dark spots and repairs uv damage scrub",
+        "prodPrice":8000,
+        "oldPrice":9799,
+        "discount":83
+    },
+    {
+        "id":4,
+        "prodImage":"../src/Images/mat.jpg",
+        "prodTitle":"revexo table mat set of 06 pcs",
+        "prodPrice":99,
+        "oldPrice":699,
+        "discount":86
+    },
+    {
+        "id":5,
+        "prodImage":"../src/Images/goodgirl.jpg",
+        "prodTitle":"good girls guide to murder by holly jackson english paperback",
+        "prodPrice":398,
+        "oldPrice":500,
+        "discount":50
+    },
+    {
+        "id":6,
+        "prodImage":"../src/Images/coffee.jpg",
+        "prodTitle":"   lavenour coffee scrub for unclog pores lightens dark spots and repairs uv damage scrub",
+        "prodPrice":8000,
+        "oldPrice":9799,
+        "discount":83
+    },
+    {
+        "id":7,
+        "prodImage":"../src/Images/mat.jpg",
+        "prodTitle":"revexo table mat set of 06 pcs",
+        "prodPrice":99,
+        "oldPrice":699,
+        "discount":86
+    },
+    {
+        "id":8,
+        "prodImage":"../src/Images/goodgirl.jpg",
+        "prodTitle":"good girls guide to murder by holly jackson english paperback",
+        "prodPrice":398,
+        "oldPrice":500,
+        "discount":50
+    }
+   
+]

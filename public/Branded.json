@@ -1,0 +1,75 @@
+[
+    {
+        "id":0,
+        "prodImage":"../src/Images/brown.jpg",
+        "prodTitle":"29k mens brown leather jacketsup",
+        "prodPrice":8000,
+        "oldPrice":9799,
+        "discount":83
+    },
+    {
+        "id":1,
+        "prodImage":"../src/Images/nutraj.jpg",
+        "prodTitle":"nutraj sweet and tart sliced cranberry",
+        "prodPrice":2099,
+        "oldPrice":3100,
+        "discount":20
+    },
+    {
+        "id":2,
+        "prodImage":"../src/Images/globus.jpg",
+        "prodTitle":"nutraj sweet and tart sliced cranberry",
+        "prodPrice":398,
+        "oldPrice":500,
+        "discount":50
+    },
+    {
+        "id":3,
+        "prodImage":"../src/Images/brown.jpg",
+        "prodTitle":"29k mens brown leather jacketsup",
+        "prodPrice":8000,
+        "oldPrice":9799,
+        "discount":83
+    },
+    {
+        "id":4,
+        "prodImage":"../src/Images/nutraj.jpg",
+        "prodTitle":"nutraj sweet and tart sliced cranberry",
+        "prodPrice":2099,
+        "oldPrice":3100,
+        "discount":20
+    },
+    {
+        "id":5,
+        "prodImage":"../src/Images/globus.jpg",
+        "prodTitle":"nutraj sweet and tart sliced cranberry",
+        "prodPrice":398,
+        "oldPrice":500,
+        "discount":50
+    },
+    {
+        "id":6,
+        "prodImage":"../src/Images/brown.jpg",
+        "prodTitle":"29k mens brown leather jacketsup",
+        "prodPrice":8000,
+        "oldPrice":9799,
+        "discount":83
+    },
+    {
+        "id":7,
+        "prodImage":"../src/Images/nutraj.jpg",
+        "prodTitle":"nutraj sweet and tart sliced cranberry",
+        "prodPrice":2099,
+        "oldPrice":3100,
+        "discount":20
+    },
+    {
+        "id":8,
+        "prodImage":"../src/Images/globus.jpg",
+        "prodTitle":"nutraj sweet and tart sliced cranberry",
+        "prodPrice":398,
+        "oldPrice":500,
+        "discount":50
+    }
+
+]
