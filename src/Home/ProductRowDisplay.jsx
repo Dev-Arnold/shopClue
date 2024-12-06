@@ -9,10 +9,12 @@ function ProductRowDisplay({ products, textDeal }) {
 
   useEffect(() => {
     const updateProductsPerPage = () => {
-      if (window.innerWidth < 640) {
+      if (window.innerWidth < 470){
+        setProductsPerPage(2);
+      }else if (window.innerWidth < 640) {
         setProductsPerPage(3);
       } else if (window.innerWidth < 1024) {
-        setProductsPerPage(5);
+        setProductsPerPage(4);
       } else {
         setProductsPerPage(6);
       }
@@ -39,7 +41,7 @@ function ProductRowDisplay({ products, textDeal }) {
 
   return (
     <div>
-      <h1 className="text-2xl font-semibold py-3 ">{textDeal}</h1>
+      <h1 className=" md:text-2xl font-semibold py-3 ">{textDeal}</h1>
       <div className="sm:flex hidden absolute z-10 w-full top-[40%] justify-between mt-4">
         <button
           onClick={handlePrevious}
@@ -63,8 +65,8 @@ function ProductRowDisplay({ products, textDeal }) {
         </button>
       </div>
       <div
-        className={`min-h-[30vh] flex bg-yellow-400 ${
-          window.innerWidth < 640 ? " w-[300px] overflow-x-auto" : ""
+        className={` lg:min-h-[30vh] flex bg-yellow-400 ${
+          window.innerWidth < 640 ? " overflow-x-auto" : ""
         }`}
       >
         {products ? (

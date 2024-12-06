@@ -6,7 +6,7 @@ import Row4 from './Row4'
 
 function Home() {
   return (
-    <div className=' bg-layoutColor min-h-[100vh] pt-4 flex flex-col items-center'>
+    <div className=' bg-layoutColor min-h-[100vh] pt-4 flex flex-col items-center pb-[100px]'>
         <Row1/>
         <Row2/>
         <Row3/>

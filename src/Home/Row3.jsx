@@ -22,7 +22,7 @@ function Row3() {
     }, []);
 
   return (
-    <div className=' w-[90%] relative'>
+    <div className=' w-[95%] md:w-[90%] relative'>
       <ProductRowDisplay products={products} textDeal="Deals of the day"/>
     </div>
   )

@@ -5,11 +5,11 @@ import HeaderIcons from './HeaderIcons'
 
 function Header1() {
   return (
-    <div className=' h-[60px] flex justify-around items-center'>
+    <div className=' h-[60px] flex justify-between px-4 sm:px-0  sm:justify-around items-center'>
       <section>
         <img src={Logo} className=' w-[150px]'/>
       </section>
-      <section>
+      <section className=' hidden sm:block'>
         <SearchBar/>
       </section>
       <section>
