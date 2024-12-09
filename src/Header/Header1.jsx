@@ -10,7 +10,7 @@ function Header1() {
         <img src={Logo} className=' w-[150px]'/>
       </section>
       <section className=' hidden sm:block'>
-        <SearchBar/>
+        <SearchBar searchText={"Search"}/>
       </section>
       <section>
         <HeaderIcons/>

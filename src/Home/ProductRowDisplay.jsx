@@ -10,7 +10,7 @@ function ProductRowDisplay({ products, textDeal }) {
   useEffect(() => {
     const updateProductsPerPage = () => {
       if (window.innerWidth < 470){
-        setProductsPerPage(2);
+        setProductsPerPage(products?.length || 0) 
       }else if (window.innerWidth < 640) {
         setProductsPerPage(3);
       } else if (window.innerWidth < 1024) {
@@ -25,7 +25,7 @@ function ProductRowDisplay({ products, textDeal }) {
     window.addEventListener("resize", updateProductsPerPage);
 
     return () => window.removeEventListener("resize", updateProductsPerPage);
-  }, []);
+  }, [products]);
 
   const handleNext = () => {
     if (products && startIndex + productsPerPage < products.length) {
@@ -41,7 +41,7 @@ function ProductRowDisplay({ products, textDeal }) {
 
   return (
     <div>
-      <h1 className=" md:text-2xl font-semibold py-3 ">{textDeal}</h1>
+      <h1 className=" md:text-2xl text-xl font-semibold py-3 ">{textDeal}</h1>
       <div className="sm:flex hidden absolute z-10 w-full top-[40%] justify-between mt-4">
         <button
           onClick={handlePrevious}
@@ -64,21 +64,25 @@ function ProductRowDisplay({ products, textDeal }) {
           <IoIosArrowForward />
         </button>
       </div>
-      <div
-        className={` lg:min-h-[30vh] flex bg-yellow-400 ${
-          window.innerWidth < 640 ? " overflow-x-auto" : ""
-        }`}
-      >
-        {products ? (
-          products
-            .slice(startIndex, startIndex + productsPerPage) // Display based on dynamic productsPerPage
-            .map((product, index) => (
-              <ProductCard key={product.id} product={product} index={index} />
-            ))
-        ) : (
-          <p className="text-white">Loading products...</p>
-        )}
+      
+      <div className=" max-w-[100vw] shadow-lg bg-white overflow-x-scroll md:overflow-x-hidden scrollbar-none">
+        <div
+          className=" h-[40vh] md:w-full gap-2 flex min-w-[300%] "
+        >
+          {products ? (
+            products
+              .slice(startIndex, startIndex + productsPerPage) // Display based on dynamic productsPerPage
+              .map((product, index) => (
+                <ProductCard key={product.id} product={product} index={index} />
+              ))
+          ) : (
+            <p className="text-white">Loading products...</p>
+          )}
+        {console.log(productsPerPage)}
+        </div>
       </div>
+      
+
     </div>
   );
 }

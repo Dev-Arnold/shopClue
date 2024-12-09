@@ -23,7 +23,7 @@ function Row2() {
   }, []);
 
   return (
-    <div className=" w-[95%] md:w-[90%] relative pb-2 ">
+    <div className=" w-[95%] md:w-[90%] h-[50vh] relative pb-2 ">
       <ProductRowDisplay products={products} textDeal="Branded Deals"/>
     </div>
   );
