@@ -4,6 +4,7 @@ import MainHeader from './Header/MainHeader'
 import Home from './Home/Home'
 import Footer from './Footer/Footer'
 import MobileFooter from './Footer/MobileFooter'
+import ProductDetails from './ProductDetails/ProductDetails'
 
 function Layout() {
   return (
@@ -12,7 +13,7 @@ function Layout() {
             <MainHeader/>
             <Routes>
                 <Route path='/' element={<Home/>}/>
-                <Route/>
+                <Route path="/:productname/:id" element={<ProductDetails/>}/>
                 <Route/>
             </Routes>
             <Footer/>

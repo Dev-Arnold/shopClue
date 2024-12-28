@@ -4,6 +4,7 @@
         "prodImage":"../src/Images/brown.jpg",
         "prodTitle":"29k mens brown leather jacketsup",
         "prodPrice":8000,
+        "prodDetails":"Upgrade your layered look with this leather jacket in Black Color from the house of Leather Retail. Warmth of leather, is perpetually pulled together and offers endless comfort. Make the world your fan as you don this truly timeless designer piece with a tee and jeans. Look effortlessly stylish wearing this Jacket.This Jacket for men is super comfortable to wear all day long and would be a great addition to your wardrobe. Team it up with a jeans for a perfect night out.",
         "oldPrice":9799,
         "discount":83
     },
@@ -11,6 +12,7 @@
         "id":1,
         "prodImage":"../src/Images/nutraj.jpg",
         "prodTitle":"nutraj sweet and tart sliced cranberry",
+        "prodDetails":"Introducing our invigorating Peppermint Scrub, a refreshing treat for your skin that will leave you feeling revitalized and rejuvenated. Indulge in the cool and exhilarating aroma of peppermint while experiencing the multitude of benefits this energizing scrub has to offer.",
         "prodPrice":2099,
         "oldPrice":3100,
         "discount":20
@@ -18,7 +20,8 @@
     {
         "id":2,
         "prodImage":"../src/Images/globus.jpg",
-        "prodTitle":"nutraj sweet and tart sliced cranberry",
+        "prodTitle":"Skin goat body creame",
+        "prodDetails":"Skin Doctor Goat Milk Whitening with Goat Milk Extract Cream Description: Intensive & nourishing goat milk cream whitening & anti-wrinkle with goat milk extract a unique special treatment goat milk cream is an innovation of beauty care which is the combination of goat milk extract which tightens and minimize facial lines, help smooth and give more radiance to the skin from the inside without causing skin irritation.",
         "prodPrice":398,
         "oldPrice":500,
         "discount":50
@@ -28,6 +31,7 @@
         "prodImage":"../src/Images/brown.jpg",
         "prodTitle":"29k mens brown leather jacketsup",
         "prodPrice":8000,
+        "prodDetails":"Upgrade your layered look with this leather jacket in Black Color from the house of Leather Retail. Warmth of leather, is perpetually pulled together and offers endless comfort. Make the world your fan as you don this truly timeless designer piece with a tee and jeans. Look effortlessly stylish wearing this Jacket.This Jacket for men is super comfortable to wear all day long and would be a great addition to your wardrobe. Team it up with a jeans for a perfect night out.",
         "oldPrice":9799,
         "discount":83
     },
@@ -36,6 +40,7 @@
         "prodImage":"../src/Images/nutraj.jpg",
         "prodTitle":"nutraj sweet and tart sliced cranberry",
         "prodPrice":2099,
+        "prodDetails":"Introducing our invigorating Peppermint Scrub, a refreshing treat for your skin that will leave you feeling revitalized and rejuvenated. Indulge in the cool and exhilarating aroma of peppermint while experiencing the multitude of benefits this energizing scrub has to offer.",
         "oldPrice":3100,
         "discount":20
     },
@@ -44,6 +49,7 @@
         "prodImage":"../src/Images/globus.jpg",
         "prodTitle":"nutraj sweet and tart sliced cranberry",
         "prodPrice":398,
+        "prodDetails":"Introducing our invigorating Peppermint Scrub, a refreshing treat for your skin that will leave you feeling revitalized and rejuvenated. Indulge in the cool and exhilarating aroma of peppermint while experiencing the multitude of benefits this energizing scrub has to offer.",
         "oldPrice":500,
         "discount":50
     },
@@ -52,6 +58,7 @@
         "prodImage":"../src/Images/brown.jpg",
         "prodTitle":"29k mens brown leather jacketsup",
         "prodPrice":8000,
+        "prodDetails":"Upgrade your layered look with this leather jacket in Black Color from the house of Leather Retail. Warmth of leather, is perpetually pulled together and offers endless comfort. Make the world your fan as you don this truly timeless designer piece with a tee and jeans. Look effortlessly stylish wearing this Jacket.This Jacket for men is super comfortable to wear all day long and would be a great addition to your wardrobe. Team it up with a jeans for a perfect night out.",
         "oldPrice":9799,
         "discount":83
     },
@@ -60,14 +67,16 @@
         "prodImage":"../src/Images/nutraj.jpg",
         "prodTitle":"nutraj sweet and tart sliced cranberry",
         "prodPrice":2099,
+        "prodDetails":"Upgrade your layered look with this leather jacket in Black Color from the house of Leather Retail. Warmth of leather, is perpetually pulled together and offers endless comfort. Make the world your fan as you don this truly timeless designer piece with a tee and jeans. Look effortlessly stylish wearing this Jacket.This Jacket for men is super comfortable to wear all day long and would be a great addition to your wardrobe. Team it up with a jeans for a perfect night out.",
         "oldPrice":3100,
         "discount":20
     },
     {
         "id":8,
         "prodImage":"../src/Images/globus.jpg",
-        "prodTitle":"nutraj sweet and tart sliced cranberry",
+        "prodTitle":"Skin goat body creame",
         "prodPrice":398,
+        "prodDetails":"Skin Doctor Goat Milk Whitening with Goat Milk Extract Cream Description: Intensive & nourishing goat milk cream whitening & anti-wrinkle with goat milk extract a unique special treatment goat milk cream is an innovation of beauty care which is the combination of goat milk extract which tightens and minimize facial lines, help smooth and give more radiance to the skin from the inside without causing skin irritation.",
         "oldPrice":500,
         "discount":50
     }
